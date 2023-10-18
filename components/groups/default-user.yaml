@@ -1,1 +1,13 @@
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: juan.ospina.quintero
+  annotations:
+    google.com/email: juan.ospina.quintero@gmail.com
+spec:
+  profile:
+    displayName: Juan Ospina
+    email: juan.ospina.quintero@gmail.com
+  memberOf: [development]
+---
