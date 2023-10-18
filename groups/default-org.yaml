@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: default-org
+  name: demo-org
   description: The Default Organization
   links:
     - url: http://www.backstage.io/
@@ -19,7 +19,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: default-group
+  name: demo-group
   description: A Default Group Location
 spec:
   targets:
